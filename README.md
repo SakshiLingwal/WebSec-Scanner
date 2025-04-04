@@ -38,7 +38,7 @@ This will start the backend on `http://localhost:10037/`.
 
 ### Additional Instructions
 - Refer to `Frontend_contri/README.md` for detailed frontend setup.
-- Refer to `Backend_contri/README.md` for backend setup and API usage.
+- Refer to `backend/README.md` for backend setup and API usage.
 
 Now, you can use WebSec Scanner to analyze website security effectively!
 
