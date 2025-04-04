@@ -30,7 +30,7 @@ This will start the frontend on `http://localhost:3000/`.
 
 #### 2. Run the Backend
 ```sh
-cd Backend_contri
+cd backend
 pip install -r requirements.txt  # Install backend dependencies
 python api.py   # Start the backend server
 ```
