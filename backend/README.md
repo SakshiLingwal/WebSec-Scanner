@@ -53,11 +53,7 @@ By default, the server runs on **http://127.0.0.1:10037**.
 | `/basicscan`     | POST   | Gather general website info        |
 | `/scanner/fullscan` | POST | Perform a full security scan      |
 
-## Example API Request
-To scan a website for SQL injection vulnerabilities, use:
-```bash
-curl -X POST http://127.0.0.1:10037/sqlscan -H "Content-Type: application/json" -d '{"website": "http://example.com"}'
-```
+
 
 ## Troubleshooting
 - If you encounter **port conflicts**, change the port in `app.py`:
@@ -74,5 +70,4 @@ Feel free to fork the repo, create pull requests, and report issues!
 This project is open-source and licensed under the MIT License.
 
 ---
-Happy Scanning! 🚀
 
